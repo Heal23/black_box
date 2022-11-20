@@ -24,4 +24,13 @@ $theme-colors: (
     -o-background-size: cover;
     background-size: cover;
  }
+
+ div.fixed {
+    position: fixed;
+    top: 700px;
+    left: 200px;
+    width: auto;
+    border: 1px transparent #73AD21;
+  }
+
 @import "node_modules/bootstrap/scss/bootstrap";

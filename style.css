@@ -10,6 +10,14 @@ html, body {
   background-size: cover;
 }
 
+div.fixed {
+  position: fixed;
+  top: 700px;
+  left: 200px;
+  width: auto;
+  border: 1px transparent #73AD21;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
