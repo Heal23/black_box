@@ -1,0 +1,27 @@
+$theme-colors: (
+    "primary":#23b6f0,
+    "secondary": rgb(196, 184, 184),
+    "success": #A7BEAE,
+    "danger": #B85042,
+    "warning": #E7E8D1,
+    "info": rgb(246, 226, 226),
+    "light": white,
+    "dark": black,
+    "muted": grey,
+    "white":  white,
+);
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  html, body { 
+    background: url(/images/galaxy-night-view.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+@import "node_modules/bootstrap/scss/bootstrap";
