@@ -25,10 +25,10 @@ $theme-colors: (
     background-size: cover;
  }
 
- div.fixed {
-    position: fixed;
-    top: 700px;
-    left: 200px;
+ section.relative {
+    position: relative;
+    top: 200px;
+    left: 20%;
     width: auto;
     border: 1px transparent #73AD21;
   }
