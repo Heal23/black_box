@@ -46,13 +46,9 @@ $theme-colors: (
     height: 500px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
+
  
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 @import "node_modules/bootstrap/scss/bootstrap";
