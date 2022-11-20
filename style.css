@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 .bg-image {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-html, body {
+.bg {
   background: url(/images/galaxy-night-view.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -29,6 +30,13 @@ section.relative2 {
 .cardcustom {
   width: 400px;
   height: 500px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /*!
